@@ -13,7 +13,6 @@ function App() {
     const response = await fetch ("http://www.boredapi.com/api/activity/");
     const data = await response.json();
     setTips(data.activity)
-    console.log(data.activity)
   }
 
   return (
