@@ -13,6 +13,7 @@ h1 {
   margin-bottom: 450px;
   position: fixed;
   font-family: 'Unbounded', cursive;
+  text-align: center;
 }
 
 .container {
@@ -31,6 +32,7 @@ h2 {
   margin-bottom: 250px;
   position: fixed;
   font-family: 'Unbounded', cursive;
+  text-align: center;
 }
 
 .btn {
@@ -51,4 +53,20 @@ h2 {
 .btn:hover {
   box-shadow: 0 0 10px #371B58,0 0 20px #371B58,0 0 30px #371B58,0 0 40px #371B58;
   background-color: #A555EC;
+}
+
+@media all and (max-width: 800px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  }
+
+  .btn {
+    padding: 15px;
+    font-size: 20px;
+  }
 }
